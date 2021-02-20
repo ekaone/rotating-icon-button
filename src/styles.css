@@ -1,0 +1,25 @@
+.App {
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 420px;
+}
+
+@keyframes rise {
+	from {
+		transform: translateY(100%);
+	}
+	to {
+		transform: translateY(0%);
+	}
+}
+
+@keyframes set {
+	from {
+		transform: translateY(0%);
+	}
+	to {
+		transform: translateY(-100%);
+	}
+}
